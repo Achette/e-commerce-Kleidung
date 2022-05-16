@@ -1,0 +1,101 @@
+@media (max-width: 1288px) {
+  .models-area {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 840px) {
+  body {
+    flex-direction: column;
+  }
+
+  .models-area {
+    display: block;
+  }
+
+  .models-item {
+    max-width: 100%;
+  }
+
+  header {
+    display: flex;
+  }
+
+  main {
+    padding-top: 68px;
+  }
+
+  aside {
+    width: auto;
+    position: fixed;
+    left: 100vw;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all ease 0.2s;
+  }
+
+  aside.show {
+    width: auto;
+  }
+
+  .cart-area {
+    width: 100vw;
+  }
+
+  .menu-closer {
+    display: block;
+  }
+
+  .modelsWindowArea {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .modelsWindowBody {
+    width: 100vw;
+    display: block;
+    padding: 20px;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0;
+  }
+
+  .modelsBig img {
+    width: 75%;
+    height: auto;
+  }
+
+  .modelsInfo h1 {
+    margin-top: 20px;
+  }
+
+  .modelsInfo-qtarea {
+    height: 60px;
+  }
+
+  .modelsInfo-qtarea button {
+    font-size: 25px;
+    padding: 0 25px;
+  }
+
+  .modelsInfo-qt {
+    line-height: 60px;
+    font-size: 20px;
+  }
+
+  .modelsInfo-addButton {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    margin: 30px;
+  }
+
+  .modelsInfo-cancelButton {
+    display: none;
+  }
+
+  .modelsInfo-cancelMobileButton {
+    display: block;
+  }
+}
